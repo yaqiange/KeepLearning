@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GenerateTableSetting">
+    <option name="tableInfoMap">
+      <map>
+        <entry key="cis.b_credit_auth_recommend">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="提额精选配置表" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="PK" value="true" />
+                    <option name="comment" value="主键" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="配置id" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="configNo" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="配置名称" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="configName" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="风险归属,贷前PRE_LOAN/贷中ON_LOAN/北小BEIXIAO" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="riskLevel" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="是否小微,否N/是Y/全部ALL" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="smeFlag" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="税票高浓度行业" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="highTaxIndustry" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="企业状态，在营ZAI_YING/非在营NOT_ZAI_YING" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="enterpriseStatus" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="经营身份,法定代表人/个体工商户/董监高/股东" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="operatorRole" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="app名称编码,抖店、千牛、菜鸟裹裹、1688商家版、拼多多商家版、个人所得税APP" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="appCode" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="引导认证类型" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="authTypeConfig" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="随机数,0~49之间数字" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="random" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="灰度比例" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="grayRatio" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="配置状态,1有效、0无效" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="status" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="排序值" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="sort" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="白名单" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="whitelist" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="人群包id，用|分割" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="crowdPackage" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="记录创建者" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="createdBy" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="记录创建时间" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="dateCreated" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="记录更新者" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="updatedBy" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="记录更新时间" />
+                    <option name="ext" value="{}" />
+                    <option name="name" value="dateUpdated" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="BCreditAuthRecommend" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="" />
+              <option name="savePackageName" value="" />
+              <option name="savePath" value="" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
